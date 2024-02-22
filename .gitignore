@@ -1,0 +1,29 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Ignore node_modules directory in both frontend and backend
+frontend/node_modules/
+backend/node_modules/
+
+# Ignore build artifacts in frontend (assuming it's created in a directory like 'build' or 'dist')
+frontend/build/
+frontend/dist/
+frontend/.next/  # For Next.js projects
+
+# Ignore build artifacts in backend (assuming it's created in a directory like 'build' or 'dist')
+backend/build/
+backend/dist/
+
+# Ignore any environment-specific files or configurations
+frontend/.env
+backend/.env
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
